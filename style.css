@@ -1,0 +1,20 @@
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+.my-btn {
+  padding: 15px 40px;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+div {
+  text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+  .my-btn {
+    margin: 2px;
+    width: 55%;
+  }
+}
